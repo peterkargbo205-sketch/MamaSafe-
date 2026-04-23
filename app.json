@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "MamaSafe",
+    "slug": "mamasafe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#1B4332",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mamasafe.app",
+      "infoPlist": {
+        "NSPhoneUsageDescription": "MamaSafe uses your phone to call emergency contacts."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1B4332"
+      },
+      "package": "com.mamasafe.app",
+      "permissions": ["CALL_PHONE", "SEND_SMS"]
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
